@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EB3BACEB3060169A00418E39 /* ButtonLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3BACEA3060169A00418E39 /* ButtonLView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EB154317304D713400E2D34C /* learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3BACEA3060169A00418E39 /* ButtonLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		EB15430E304D713400E2D34C = {
 			isa = PBXGroup;
 			children = (
+				EB3BACEA3060169A00418E39 /* ButtonLView.swift */,
 				EB154319304D713400E2D34C /* learning */,
 				EB154318304D713400E2D34C /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB3BACEB3060169A00418E39 /* ButtonLView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
