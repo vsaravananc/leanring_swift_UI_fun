@@ -12,7 +12,10 @@ struct learningApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            CounterApplicationView()
+//            CounterApplicationView()
+            NavigationView {
+                TravelApplicationMain()
+            }
         }
     }
 }

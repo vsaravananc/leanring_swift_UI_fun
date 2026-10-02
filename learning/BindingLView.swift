@@ -29,7 +29,7 @@ struct BindingLButton : View {
     
     var body: some View {
         Button(action:{
-            if(self.backgroundColor == .blue){
+            if self.backgroundColor == .blue {
                 self.backgroundColor = .pink
             }else{
                 self.backgroundColor = .blue
