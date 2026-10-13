@@ -43,7 +43,7 @@ struct TabViewLView: View {
         }
         .frame(height:250)
         .padding(.horizontal)
-        .tabViewStyle(.page)
+//        .tabViewStyle(.page)
     }
 }
 

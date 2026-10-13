@@ -20,6 +20,7 @@ struct customToggleView : ToggleStyle{
                              VStack(alignment:.leading) {
                                  configuration.label
                              }
+                             Spacer()
                          }
                      }
                      .tint(.primary)
