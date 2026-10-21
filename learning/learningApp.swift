@@ -13,9 +13,10 @@ struct learningApp: App {
         WindowGroup {
 //            ContentView()
 //            CounterApplicationView()
-            NavigationView {
-                TravelApplicationMain()
-            }
+//            NavigationView {
+//                TravelApplicationMain()
+//            }
+            AppStorageView()
         }
     }
 }

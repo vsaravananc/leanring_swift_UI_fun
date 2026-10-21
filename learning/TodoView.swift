@@ -35,6 +35,7 @@ struct TodoView: View {
                     Toggle(isOn: $todo.isDone) {
                         Text(todo.text)
                             .font(.title)
+                        
                     }.toggleStyle(customToggleView())
                 }.padding(.horizontal)
             }
