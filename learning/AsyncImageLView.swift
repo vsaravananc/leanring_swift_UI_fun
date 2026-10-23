@@ -27,7 +27,7 @@ struct AsyncImageLView: View {
                 case .success(let image):
                     image.resizable()
                         .scaledToFill()
-                case .failure(let error):
+                case .failure(_):
                     Image(systemName: "questionmark")
                         .font(.title)
                 @unknown default:
