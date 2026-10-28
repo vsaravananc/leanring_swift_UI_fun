@@ -6,8 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EB6C78153090234500492767 /* FocusStateLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C78143090234500492767 /* FocusStateLView.swift */; };
+		EB6C7817309028ED00492767 /* NavigationStackLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C7816309028ED00492767 /* NavigationStackLView.swift */; };
+		EB6C781930902E5200492767 /* ToolBarLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C781830902E5200492767 /* ToolBarLView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EB154317304D713400E2D34C /* learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6C78143090234500492767 /* FocusStateLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateLView.swift; sourceTree = "<group>"; };
+		EB6C7816309028ED00492767 /* NavigationStackLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackLView.swift; sourceTree = "<group>"; };
+		EB6C781830902E5200492767 /* ToolBarLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarLView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +41,9 @@
 		EB15430E304D713400E2D34C = {
 			isa = PBXGroup;
 			children = (
+				EB6C781830902E5200492767 /* ToolBarLView.swift */,
+				EB6C78143090234500492767 /* FocusStateLView.swift */,
+				EB6C7816309028ED00492767 /* NavigationStackLView.swift */,
 				EB154319304D713400E2D34C /* learning */,
 				EB154318304D713400E2D34C /* Products */,
 			);
@@ -119,6 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6C781930902E5200492767 /* ToolBarLView.swift in Sources */,
+				EB6C78153090234500492767 /* FocusStateLView.swift in Sources */,
+				EB6C7817309028ED00492767 /* NavigationStackLView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
