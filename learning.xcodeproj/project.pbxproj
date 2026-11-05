@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB4458603095847E006B0F4B /* ResizeableBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB44585F3095847E006B0F4B /* ResizeableBottomSheet.swift */; };
 		EB6C78153090234500492767 /* FocusStateLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C78143090234500492767 /* FocusStateLView.swift */; };
 		EB6C7817309028ED00492767 /* NavigationStackLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C7816309028ED00492767 /* NavigationStackLView.swift */; };
 		EB6C781930902E5200492767 /* ToolBarLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C781830902E5200492767 /* ToolBarLView.swift */; };
@@ -14,6 +15,7 @@
 
 /* Begin PBXFileReference section */
 		EB154317304D713400E2D34C /* learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44585F3095847E006B0F4B /* ResizeableBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeableBottomSheet.swift; sourceTree = "<group>"; };
 		EB6C78143090234500492767 /* FocusStateLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateLView.swift; sourceTree = "<group>"; };
 		EB6C7816309028ED00492767 /* NavigationStackLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackLView.swift; sourceTree = "<group>"; };
 		EB6C781830902E5200492767 /* ToolBarLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarLView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				EB6C781830902E5200492767 /* ToolBarLView.swift */,
+				EB44585F3095847E006B0F4B /* ResizeableBottomSheet.swift */,
 				EB6C78143090234500492767 /* FocusStateLView.swift */,
 				EB6C7816309028ED00492767 /* NavigationStackLView.swift */,
 				EB154319304D713400E2D34C /* learning */,
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4458603095847E006B0F4B /* ResizeableBottomSheet.swift in Sources */,
 				EB6C781930902E5200492767 /* ToolBarLView.swift in Sources */,
 				EB6C78153090234500492767 /* FocusStateLView.swift in Sources */,
 				EB6C7817309028ED00492767 /* NavigationStackLView.swift in Sources */,
